@@ -64,4 +64,4 @@ Only one .sql file (well-commented)
 
 Source code files (organized properly)
 
-SQL script used to create your database
+SQL script used to create a database
