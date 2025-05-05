@@ -1,4 +1,5 @@
-# Project Title: An e-commerce system
+# Project Title
+# Ecommerce Database System
 
 ## In ecommerce:
 
@@ -47,41 +48,6 @@ To build an effective ER Diagram, you need to understand its fundamental compone
 **Foreign Keys (FK)**: Attributes that link to primary keys in other tables to establish relationships.
 
 Used **Entity-Relationship (ER) modeling** to design the schema. Here's an example for an **e-commerce system**:
-
-Tables:
-
-## Users
-
-id (Primary Key, Auto Increment)
-name (VARCHAR)
-email (VARCHAR, UNIQUE)
-password (VARCHAR)
-created_at (TIMESTAMP)
-
-## Products
-
-id (Primary Key, Auto Increment)
-name (VARCHAR)
-description (TEXT)
-price (DECIMAL)
-stock (INT)
-created_at (TIMESTAMP)
-
-## Orders
-
-id (Primary Key, Auto Increment)
-user_id (Foreign Key referencing Users.id)
-total_price (DECIMAL)
-status (ENUM: 'pending', 'completed', 'cancelled')
-created_at (TIMESTAMP)
-
-## Order_Items
-
-id (Primary Key, Auto Increment)
-order_id (Foreign Key referencing Orders.id)
-product_id (Foreign Key referencing Products.id)
-quantity (INT)
-price (DECIMAL)
 
 
 Screenshot or link to the ERD! [https://dbdiagram.io/d/6818b2631ca52373f5809ddd]
