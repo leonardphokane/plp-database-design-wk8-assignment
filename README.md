@@ -52,7 +52,6 @@ To build an effective ER Diagram, you need to understand its fundamental compone
 
 Screenshot [Screenshot](https://github.com/user-attachments/assets/9f59651f-5eda-4fa6-9b8d-3fad3ee838e5)
 
-link [https://dbdiagram.io/d/6818b2631ca52373f5809ddd]
 
 
 🧠 For Question 1:
