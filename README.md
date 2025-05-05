@@ -9,13 +9,33 @@ An Order links to both User and Product via relationships.
 A customer can place orders, with each order linked back to a customer using UserID as a foreign key. 
 ER Diagrams simplify database design by showing these relationships clearly and ensuring logical structure before implementation.
 
-## Main entities in an ecommerce system:
+## Step 1: Identify Entities
+Main entities in an ecommerce system:
+•	Customer
+•	Product
+•	Order
+•	OrderItem (junction entity for many-to-many between Orders and Products)
+•	Payment
+•	Category
+•	Shipping
 
-Customer
-Product
-Order
-OrderItem (junction entity for many-to-many between Orders and Products)
+## Step 2: Define Attributes
+•	Customer: CustomerID (PK), Name, Email, Phone, Address
+•	Product: ProductID (PK), Name, Description, Price, Stock, CategoryID (FK)
+•	Order: OrderID (PK), OrderDate, Status, CustomerID (FK)
+•	OrderItem: OrderItemID (PK), OrderID (FK), ProductID (FK), Quantity, Subtotal
+•	Payment: PaymentID (PK), PaymentDate, Amount, OrderID (FK), PaymentMethod
+•	Category: CategoryID (PK), CategoryName
+•	Shipping: ShippingID (PK), OrderID (FK), ShipDate, Carrier, TrackingNumber
 
+
+## Step 3: Establish Relationships
+•	A Customer places many Orders (one-to-many)
+•	An Order contains many OrderItems (one-to-many)
+•	A Product belongs to a Category (many-to-one)
+•	A Product appears in many OrderItems (many-to-many via OrderItem)
+•	An Order has one Payment
+•	An Order has one Shipping
 
 ## Key Concepts of ER Diagrams
 To build an effective ER Diagram, you need to understand its fundamental components:
