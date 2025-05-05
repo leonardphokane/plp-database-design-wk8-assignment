@@ -84,7 +84,7 @@ quantity (INT)
 price (DECIMAL)
 
 
-Screenshot or link to the ERD! [image]([https://dbdiagram.io/d/6818b2631ca52373f5809ddd])
+Screenshot or link to the ERD! [https://dbdiagram.io/d/6818b2631ca52373f5809ddd]
 
 
 That's what the project does
