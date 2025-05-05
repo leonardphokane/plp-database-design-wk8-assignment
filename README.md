@@ -1,5 +1,4 @@
-# Project Title
-## An e-commerce system:
+# Project Title: An e-commerce system
 
 ## In ecommerce:
 
@@ -65,14 +64,14 @@ quantity (INT)
 price (DECIMAL)
 
 
-![image](https://github.com/user-attachments/assets/7e0b890b-ab5a-4991-8690-d24dee5f63ea)
+Screenshot or link to the ERD! [image](https://github.com/user-attachments/assets/7e0b890b-ab5a-4991-8690-d24dee5f63ea)
 
 
-Description of what your project does
+That's what the project does
 
 How to run/setup the project (or import SQL)
 
-Screenshot or link to your ERD
+
 
 🧠 For Question 1:
 
