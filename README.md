@@ -41,11 +41,11 @@ Main entities in an ecommerce system:
 ## Key Concepts of ER Diagrams
 To build an effective ER Diagram, you need to understand its fundamental components:
 
-**Entities**: These represent real-world objects. In ecommerce, typical entities include Customer, Product, and Order.
-**Attributes**: These describe properties of an entity. For example, a Product might have ProductID, Name, and Price.
-**Relationships**: These show how entities are connected. A Customer places an Order.
-**Primary Keys (PK)**: Unique identifiers for each entity.
-**Foreign Keys (FK)**: Attributes that link to primary keys in other tables to establish relationships.
+- **Entities**: These represent real-world objects. In ecommerce, typical entities include Customer, Product, and Order.
+- **Attributes**: These describe properties of an entity. For example, a Product might have ProductID, Name, and Price.
+- **Relationships**: These show how entities are connected. A Customer places an Order.
+- **Primary Keys (PK)**: Unique identifiers for each entity.
+- **Foreign Keys (FK)**: Attributes that link to primary keys in other tables to establish relationships.
 
 
 
